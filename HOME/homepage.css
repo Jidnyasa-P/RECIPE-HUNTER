@@ -55,6 +55,13 @@ position: sticky;
     left: 8%;
     transform: translateY(-50%);
 }
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../IMAGES/hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
 h1{
     color: #213032;
     font-size: 75px;
