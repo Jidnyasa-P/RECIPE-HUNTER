@@ -58,7 +58,7 @@ position: sticky;
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url("../IMAGES/hero.jpg");
+    background-image: url("../IMAGES/hero.png");
     background-position: center;
     background-size: cover;
 }
