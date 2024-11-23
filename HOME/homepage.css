@@ -20,7 +20,7 @@ header {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(../IMAGES/Hero.jpg);
+  background-image: url("../IMAGES/Hero.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -58,7 +58,7 @@ header {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("../IMAGES/hero.png");
+  background-image: url("../IMAGES/Hero.png");
   background-position: center;
   background-size: cover;
 }
@@ -162,7 +162,7 @@ h4 {
 .box .card img {
   width: 100%;
   height: 1005;
-  object-fit: cover;
+  object-fit: contain;
 }
 .box .card .content {
   position: absolute;
@@ -273,7 +273,7 @@ h4 {
 .box .ca-card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 /*Contact form*/
 .contact {
