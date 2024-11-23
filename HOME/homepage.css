@@ -50,6 +50,7 @@ header {
   cursor: pointer;
 }
 .content {
+  margin-top: 2rem;
   position: absolute;
   top: 40%;
   left: 8%;
@@ -148,11 +149,12 @@ h4 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding-top: 3rem;
 }
 .card {
   position: relative;
   width: 300px;
-  height: 300px;
+  height: 225px;
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -162,7 +164,7 @@ h4 {
 .box .card img {
   width: 100%;
   height: 1005;
-  object-fit: contain;
+  object-fit: cover;
 }
 .box .card .content {
   position: absolute;
@@ -273,7 +275,7 @@ h4 {
 .box .ca-card img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 /*Contact form*/
 .contact {
