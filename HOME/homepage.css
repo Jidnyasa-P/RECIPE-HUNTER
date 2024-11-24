@@ -16,6 +16,9 @@ header {
   padding: 0 100px;
   background: #acb4b5;
   position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .hero {
   height: 100vh;
@@ -356,11 +359,12 @@ h4 {
   color: #314e52;
   cursor: pointer;
 }
-footer {
+
+footer{
   padding: 20px 0;
   background: #182f32;
 }
-footer h5 {
+footer h5{
   font-size: 25px;
   margin-top: 10px;
   text-align: center;
