@@ -84,16 +84,23 @@ h4 {
 .button {
   position: absolute;
   background-color: #213032;
-  color: #fff;
   text-decoration: none;
   border: 2px solid black;
   font-weight: bold;
   padding: 13px 30px;
   transform: 0.4s;
 }
+
+a:link,:visited {
+  color: #fff;
+}
+
+a:hover,:active {
+  color: #213032;
+}
+
 .button:hover {
   background-color: #97a2a3;
-  color: #213032;
   border: 2px solid black;
   cursor: pointer;
 }
@@ -360,11 +367,11 @@ h4 {
   cursor: pointer;
 }
 
-footer{
+footer {
   padding: 20px 0;
   background: #182f32;
 }
-footer h5{
+footer h5 {
   font-size: 25px;
   margin-top: 10px;
   text-align: center;

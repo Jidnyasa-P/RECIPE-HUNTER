@@ -127,19 +127,16 @@ p {
   color: #4caf50;
 }
 
-footer {
-  position: relative;
-  width: 100%;
+footer{
+  padding: 20px 0;
+  background: #182f32;
+  position: fixed;
   bottom: 0;
-  left: 0;
-  background-color: #333;
-  text-align: center;
-  padding: 10px;
-  z-index: 1000;
+  width: 100%;
 }
-
-footer p {
-  margin: 0;
-  font-size: 1rem;
-  color: white;
+footer h5{
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+  color: #97a2a3;
 }

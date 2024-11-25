@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -85,19 +91,13 @@ header {
   }
 }
 
-footer {
-  position: relative;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: #333;
-  text-align: center;
-  padding: 10px;
-  z-index: 1000;
+footer{
+  padding: 20px 0;
+  background: #182f32;
 }
-
-footer p {
-  margin: 0;
-  font-size: 1rem;
-  color: white;
+footer h5{
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+  color: #97a2a3;
 }
