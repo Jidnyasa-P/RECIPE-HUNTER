@@ -3,7 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>User Account - Recipe Hunter</title>
+    <link rel="stylesheet" href="user.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Account - Recipe Hunter</title>
     <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="faq.css" />
@@ -27,95 +41,66 @@
         </ul>
       </div>
     </header>
-  <section>
-    <div class="container">
-      <h1>User Account</h1>
 
-      <!-- Login Section -->
-      <div id="loginSection">
-        <h2>Login</h2>
-        <form id="loginForm">
-          <input
-            type="text"
-            id="loginUsername"
-            placeholder="Username"
-            required
-          />
-          <input
-            type="password"
-            id="loginPassword"
-            placeholder="Password"
-            required
-          />
-          <div class="button-group">
-            <button type="submit">Login</button>
-            <button type="button" id="createAccountButton">
-              Create Account
-            </button>
-          </div>
-        </form>
-        <p id="loginMessage"></p>
-      </div>
-
-      <!-- Create Account Section (Initially Hidden) -->
-      <div id="createAccountSection" style="display: none">
-        <h2>Create Account</h2>
-        <form id="createAccountForm">
-          <input
-            type="text"
-            id="newUsername"
-            placeholder="New Username"
-            required
-          />
-          <input type="email" id="newEmail" placeholder="Email" required />
-          <input
-            type="password"
-            id="newPassword"
-            placeholder="New Password"
-            required
-          />
-          <button type="submit">Create Account</button>
-        </form>
-        <p id="createAccountMessage"></p>
-      </div>
-
-      <!-- Profile Section (Visible After Login) -->
-      <div id="profileSection" style="display: none;">
-        <h2>Welcome, <span id="displayName"></span>!</h2><br>
-        <form id="updateProfileForm">
-        <label for="profileUsername">Username:</label>
-        <br>
-        <input type="text" id="profileUsername" required>
-        <br>
-        <label for="profileEmail">Email:</label>
-        <br>
-        <input type="email" id="profileEmail" required>
-
-        <button type="submit">Update Profile</button>
-        </form>
-        <button id="logoutButton">Logout</button>
-        <p id="profileMessage"></p>
-
-      <!-- Rate Us Section -->
-      <div id="rateUsSection">
-        <h3>Rate Us</h3>
-        <p>How would you rate your experience?</p>
-        <div class="rating">
-          <span data-rating="5">&#9733;</span>
-          <span data-rating="4">&#9733;</span>
-          <span data-rating="3">&#9733;</span>
-          <span data-rating="2">&#9733;</span>
-          <span data-rating="1">&#9733;</span>
+    <section>
+      <div class="blank"></div>
+      <div class="container" id="container">
+        <div class="sign-up">
+          <form>
+            <h1>Create Account</h1>
+            <div class="icons">
+              <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+              <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <span>or use email for registeration</span>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Sign Up</button>
+          </form>
         </div>
-        <p id="rateUsMessage"></p>
+        <div class="sign-in">
+          <form>
+            <h1>Sign In</h1>
+            <div class="icons">
+              <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+              <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <span>or use email password</span>
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Forgot password</a>
+            <button>Sign In</button>
+          </form>
+        </div>
+        <div class="toogle-container">
+          <div class="toogle">
+            <div class="toogle-panel toogle-left">
+              <h1>Welcome User!</h1>
+              <p>If you already have an account</p>
+              <button class="hidden" id="login">Sign In</button>
+            </div>
+            <div class="toogle-panel toogle-right">
+              <h1>Hello, User!</h1>
+              <p>If you don't have an account</p>
+              <button class="hidden" id="register">Sign Up</button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
     <footer>
       <h5>CopyRight © 2024 By Recipe Hunter</h5>
     </footer>
-
     <script src="user.js"></script>
   </body>
 </html>

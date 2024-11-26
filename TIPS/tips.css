@@ -58,10 +58,19 @@ header {
   color: #fff;
 }
 
-.header h1,p {
+.header h1 {
   text-align: center;
   padding: 20px;
-  color: #4caf50;
+  font-size: 4rem;
+  color: #213032;
+  animation: fadeIn 3s ease;
+}
+
+.header p{
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  color: #213032;
   animation: fadeIn 3s ease;
 }
 
@@ -85,7 +94,7 @@ header {
 }
 
 h2 {
-  color: #4caf50;
+  color: #213032;
 }
 
 .tips-list {

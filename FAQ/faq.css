@@ -15,17 +15,16 @@ body {
 .header h1 {
   text-align: center;
   padding: 20px;
-  color: #4caf50;
-  animation: slideIn 1s ease-out;
+  font-size: 4rem;
+  color: #213032;
+  animation: FadeIn 3s ease;
 }
 
-@keyframes slideIn {
+@keyframes FadeIn {
   from {
-    transform: translateX(-100%);
     opacity: 0;
   }
   to {
-    transform: translateX(0);
     opacity: 1;
   }
 }
@@ -97,14 +96,14 @@ header {
 }
 
 .faq-item h3 {
-  font-size: 1.2em;
+  font-size: 2rem;
   margin: 0;
-  color: #4CAF50;
+  color: #182f32;
   cursor: pointer;
 }
 
 .faq-item p {
-  font-size: 1em;
+  font-size: 1.2rem;
   color: #666;
   margin-top: 8px;
   display: none; /* Initially hidden */
@@ -132,15 +131,15 @@ header {
 }
 
 .faq-item p {
-  animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 
-footer{
+footer {
   padding: 20px 0;
   background: #182f32;
 }
 
-footer h5{
+footer h5 {
   font-size: 25px;
   margin-top: 10px;
   text-align: center;

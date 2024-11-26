@@ -1,16 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 /* Reset some basic styles */
 * {
   margin: 0;
@@ -68,15 +55,24 @@ header {
 .header {
   width:100%;
   background-color: #314e52;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
 
-.header h1,p {
+.header h1 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   color: white;
+  font-size: 4rem;
   animation: fadeIn 3s ease;
+}
+
+.header p {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-size: 2rem;
+  animation: fadeIn 5s ease;
 }
 
 @keyframes fadeIn {
@@ -86,6 +82,10 @@ header {
   to {
     opacity: 1;
   }
+}
+
+.section{
+  background-color: #97a2a3;
 }
 
 main {
@@ -100,6 +100,12 @@ main {
   width: 100%;
   max-width: 500px;
   margin-bottom: 20px;
+}
+
+.add{
+  color: #213032;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 #ingredientForm {
@@ -203,6 +209,11 @@ button[type="submit"]:hover {
   max-width: 400px;
   display: block;
   margin: 0 auto;
+}
+
+.blank{
+  height: 3rem;
+  width: 100%;
 }
 
 footer{

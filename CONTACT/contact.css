@@ -80,7 +80,7 @@ textarea {
 button {
   margin-top: 20px;
   padding: 12px;
-  background-color: #4caf50;
+  background-color: #182f32;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -89,7 +89,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #97a2a3;
 }
 
 /* Basic Container Styling */
@@ -104,8 +104,8 @@ button:hover {
 }
 
 .contact-section h2 {
-  color: #4CAF50;
-  font-size: 1.8em;
+  color: #213032;
+  font-size: 4rem;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -115,6 +115,7 @@ button:hover {
   line-height: 1.6;
   margin: 0 auto;
   max-width: 700px;
+  font-size: 1.5rem;
   text-align: center;
   padding: 5px 0;
 }
@@ -129,13 +130,13 @@ button:hover {
 }
 
 .contact-item h2 {
-  font-size: 1.5em;
+  font-size: 2rem;
   color: #333;
 }
 
 .contact-item p {
   color: #666;
-  font-size: 1em;
+  font-size: 1.2rem;
   text-align: left;
   padding-left: 15px;
 }

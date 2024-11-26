@@ -66,20 +66,56 @@ header {
   background-position: center;
   background-size: cover;
 }
+
 h1 {
   color: #213032;
   font-size: 75px;
   margin: 20px 0px 20px;
+  overflow: hidden;
+  border-right: 0.15cm solid #213032;
+  white-space: nowrap;
+  animation: type 7s steps(44) 1s infinite normal,
+    caret 0.7s steps(44) infinite normal;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes type {
+  form {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes caret{
+  from,to{
+    border-color: transparent;
+  }
+  50%{
+    border-color: #213032;
+  }
+}
+
 h3 {
   color: #213032;
-  font-size: 25px;
+  font-size: 2rem;
   margin-bottom: 50px;
+  animation: fadeIn 5s ease;
 }
 h4 {
   color: #213032;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 2rem;
+  animation: fadeIn 5s ease;
 }
 .button {
   position: absolute;
@@ -89,13 +125,16 @@ h4 {
   font-weight: bold;
   padding: 13px 30px;
   transform: 0.4s;
+  animation: fadeIn 5s ease;
 }
 
-a:link,:visited {
+a:link,
+:visited {
   color: #fff;
 }
 
-a:hover,:active {
+a:hover,
+:active {
   color: #213032;
 }
 

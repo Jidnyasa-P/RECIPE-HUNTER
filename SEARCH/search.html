@@ -32,26 +32,33 @@
       <p>Enter ingredients to find recipes that match !</p>
     </div>
 
-    <main>
-      <div class="form-container">
-        <form id="ingredientForm">
-          <label for="ingredientInput">Add Ingredient:</label>
-          <input type="text" id="ingredientInput" placeholder="e.g., chicken" required>
-          <button type="button" id="addIngredientButton">+</button>
-          <div id="ingredientsList" class="ingredients-list"></div>
-          <button type="submit">Find Recipes</button>
-        </form>
-      </div>
+    <section class="section">
+      <main>
+        <div class="form-container">
+          <form id="ingredientForm">
+            <label for="ingredientInput" class="add">Add Ingredient:</label>
+            <input
+              type="text"
+              id="ingredientInput"
+              placeholder="e.g., chicken"
+              required
+            />
+            <button type="button" id="addIngredientButton">+</button>
+            <div id="ingredientsList" class="ingredients-list"></div>
+            <button type="submit">Find Recipes</button>
+          </form>
+        </div>
 
-      <div id="recipeContainer" class="recipe-container">
-        <!-- Recipes will appear here -->
-      </div>
-    </main>
+        <div id="recipeContainer" class="recipe-container">
+          <!-- Recipes will appear here -->
+        </div>
+      </main>
 
-    <div id="recipeModal" class="modal">
-      <div id="modalContent" class="modal-content"></div>
-    </div>
-    
+      <div id="recipeModal" class="modal">
+        <div id="modalContent" class="modal-content"></div>
+      </div>
+      <div class="blank"></div>
+    </section>
 
     <footer>
       <h5>CopyRight © 2024 By Recipe Hunter</h5>
