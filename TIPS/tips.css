@@ -124,12 +124,12 @@ iframe {
 }
 
 footer{
-  padding: 20px 0;
+  padding: 10px 0;
   background: #182f32;
 }
 footer h5{
-  font-size: 25px;
-  margin-top: 10px;
+  font-size: 15px;
+  margin-top: 5px;
   text-align: center;
   color: #97a2a3;
 }

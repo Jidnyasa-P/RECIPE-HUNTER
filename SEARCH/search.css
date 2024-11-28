@@ -217,12 +217,15 @@ button[type="submit"]:hover {
 }
 
 footer{
-  padding: 20px 0;
+  padding: 10px 0;
   background: #213032;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 footer h5{
-  font-size: 25px;
-  margin-top: 10px;
+  font-size: 15px;
+  margin-top: 5px;
   text-align: center;
   color: #97a2a3;
 }
